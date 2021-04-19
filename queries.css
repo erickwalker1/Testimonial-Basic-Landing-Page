@@ -1,0 +1,98 @@
+/* iPhone */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* -------------------------------- */
+  /* CONTAINERS */
+  /* -------------------------------- */
+
+  .testimonial {
+    flex-direction: column;
+    position: relative;
+    right: 5rem;
+
+    margin: 2rem 0 0 2.7rem;
+  }
+
+  .box-1-of-5 {
+    height: 28rem;
+  }
+
+  .box-2-of-5 {
+    height: 16rem;
+
+    position: relative;
+    left: 2rem;
+    top: 0.8rem;
+  }
+
+  .box-3-of-5 {
+    height: 31rem;
+    
+    position: relative;
+    left: 2rem;
+    top: 1.9rem;
+  }
+
+  .box-4-of-5 {
+    height: 15rem;
+
+    position: relative;
+    top: 2.5rem;
+  }
+
+  .box-5-of-5 {
+    height: 25.5rem;
+
+    position: relative;
+    top: 3rem;
+    left: 1.8rem;
+  }
+
+  .box-1-of-5,
+  .box-2-of-5,
+  .box-3-of-5,
+  .box-4-of-5,
+  .box-5-of-5 {
+    width: 20rem;
+  }
+
+  .user-review-daniel,
+  .user-review-jonathan {
+    width: 120%;
+  }
+
+  .user-review-patrick {
+    width: 114%;
+  }
+
+  .user-background-jonathan {
+    width: 117%;
+  }
+  .user-background-daniel {
+    width: 120%;
+  }
+
+  .user-background-kira,
+  .user-background-jeanette {
+    width: 115%;
+  }
+}
+
+/*  Small phone to small tablet: from 481px - 767px  */
+@media only screen and (max-width: 767px) {
+}
+
+/*  Small tablet to big tablet: from 768px - 1023px  */
+@media only screen and (max-width: 1023px) {
+}
+
+/*  Big tablet to 1200px (widths smaller than 1140px row)  */
+@media only screen and (max-width: 1200px) {
+}

@@ -1,0 +1,197 @@
+/* -------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.testimonial {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 4.6rem 0 0 4rem;
+}
+
+/* -------------------------------- */
+/* CONTAINERS */
+/* -------------------------------- */
+
+.testimonial div {
+  margin-left: 3.4rem;
+  margin-top: 0.3rem;
+}
+
+.box-1-of-5,
+.box-2-of-5,
+.box-3-of-5,
+.box-4-of-5,
+.box-5-of-5 {
+  border: 0.19rem solid rgb(235, 235, 235);
+  border-radius: 0.6rem;
+}
+
+.box-1-of-5 {
+  width: 34rem;
+  height: 17.2rem;
+  position: relative;
+  left: 1.875rem;
+  background-color: hsl(263, 55%, 52%);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position: 75% 0%;
+}
+
+.box-2-of-5 {
+  width: 15.625rem;
+  height: 17.1rem;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.box-3-of-5 {
+  width: 15.625rem;
+  height: 37.5rem;
+  position: relative;
+  right: 1.875rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.box-4-of-5,
+.box-5-of-5 {
+  position: relative;
+  height: 18.75rem;
+  bottom: 19.125rem;
+}
+
+.box-4-of-5 {
+  width: 15.625rem;
+  position: relative;
+  left: 1.875rem;
+  background-color: hsl(0, 0%, 100%);
+}
+.box-5-of-5 {
+  width: 34.375rem;
+  background-color: hsl(219, 29%, 14%);
+}
+
+/* -------------------------------- */
+/* IMAGES */
+/* -------------------------------- */
+
+.daniel-image,
+.jonathan-image,
+.kira-image,
+.jeanette-image,
+.patrick-image {
+  width: auto;
+  height: 2.1rem;
+  position: relative;
+  right: 4.6rem;
+  top: 1.5rem;
+  border-radius: 50%;
+}
+
+.daniel-image,
+.patrick-image {
+  border: 0.125rem solid hsl(263, 38%, 59%);
+}
+
+/* -------------------------------- */
+/* PARAGRAPHS */
+/* -------------------------------- */
+
+div p {
+  position: relative;
+  right: 1.875rem;
+  bottom: 1.25rem;
+  font-size: 0.6rem;
+}
+
+/* USERS NAME */
+.username-daniel,
+.username-jonathan,
+.username-patrick {
+  color: white;
+}
+
+/* USERS STATUS */
+.userstatus-daniel,
+.userstatus-jonathan,
+.userstatus-kira,
+.userstatus-jeanette,
+.userstatus-patrick {
+  position: relative;
+  bottom: 1.75rem;
+  color: hsl(0, 0%, 61%);
+}
+
+/* USERS REVIEW - BIG WORDING */
+.user-review-daniel,
+.user-review-jonathan,
+.user-review-kira,
+.user-review-jeanette,
+.user-review-patrick {
+  position: relative;
+  right: 4.6rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.user-review-daniel,
+.user-review-jonathan,
+.user-review-patrick {
+  color: white;
+}
+
+.user-review-jonathan,
+.user-review-kira,
+.user-review-jeanette {
+  width: 120%;
+}
+
+.user-review-patrick {
+  width: 100%;
+}
+
+/* USERS BACKGROUND - SMALL WORDING BENEATH REVIEW */
+.user-background-daniel,
+.user-background-jonathan,
+.user-background-kira,
+.user-background-jeanette,
+.user-background-patrick {
+  position: relative;
+  right: 4.575rem;
+  font-size: 0.875rem;
+  color: hsl(0, 0%, 81%);
+}
+
+.user-background-kira,
+.user-background-jeanette {
+  color: hsl(0, 0%, 61%);
+}
+
+.user-background-kira,
+.user-background-jeanette {
+  width: 140%;
+}
+
+.user-background-daniel {
+  width: 110%;
+}
+
+.user-background-jonathan {
+  width: 150%;
+}
+
+.user-background-patrick {
+  width: 115%;
+}
